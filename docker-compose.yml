@@ -1,0 +1,7 @@
+version: '2'
+
+services:
+  gcc:
+    image: gcc:latest
+    volumes:
+      - ./:./
